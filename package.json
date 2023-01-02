@@ -1,0 +1,29 @@
+{
+  "name": "rxjs-dev",
+  "version": "1.0.0",
+  "description": "* Lo primero que debemos de hacer después de descargar el código es ejecutar el comando:",
+  "main": "index.js",
+  "dependencies": {
+    "@types/express": "^4.17.15",
+    "@types/express-serve-static-core": "^4.17.32",
+    "@types/node": "^18.11.18",
+    "command": "^0.0.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@webpack-cli/generators": "^3.0.1",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "^2.8.1",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development  --open --port=8081"
+  },
+  "author": "",
+  "license": "ISC"
+}
